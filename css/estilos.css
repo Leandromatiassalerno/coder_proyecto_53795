@@ -123,7 +123,3 @@ background-color: rgb(85, 101, 240);
         font-size: 3rem;
     }
 }
-.card-img-overlay {
-    background-size: contain;
-    background-position: center;
-  }
