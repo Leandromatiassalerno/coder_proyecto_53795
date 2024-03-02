@@ -12,13 +12,13 @@
     </head>
     <body>
         <header class="  position-sticky top-0">
-            <nav class="navbar navbar-expand-lg header ">
+            <nav class="navbar navbar-expand-lg header navbar-dark">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">
                     <img src="./asset/img/libro-de-hechizos.png" alt="Logo el rincon de la fantasia"></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
                       <li class="nav-item">
@@ -41,7 +41,7 @@
               </nav>
 
         </header>
-        <main class="container-fluid">
+        <main>
             <section>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/xFxMx7DsqP0?si=zVUYdgRbIGo5lrte" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <h1 class="titulo text-center fs-1">Adentrate en obras que nos llevaran a mundos fantasticos</h1>
@@ -52,10 +52,10 @@
             </section>
            
 
-            <section class="container d-flex justify-content-center">
+            <section class="d-flex justify-content-center">
                 <section class="targetas border border-secondary shadow p-3 mb-5 -tertiary rounded">
                         <a href="./pages/Peliculas.html">
-                        <img class="w-100 border-1 border-secondary" src="./asset/img/pelis.jpg" alt="cinta de peliculas, pochoclos y lentes 3D">   
+                        <img class="w-100 border-1 border-secondary " src="./asset/img/pelis.jpg" alt="cinta de peliculas, pochoclos y lentes 3D">   
                         <h4 class="text-dark fs-2 text-center mt-3">Peliculas</h4></a>
                 </section>
                 <section class="targetas border border-secondary shadow p-3 mb-5 -tertiary rounded">
@@ -73,16 +73,20 @@
 
         </main>
         <footer class="footer container-fluid">
-            <img src="./asset/img/libro-de-hechizos.png" alt="Logo el rincon de la fantasia">
-            <section class="redes d-flex w-100 justify-content-center ">
+          <div class="row align-items-center justify-content-evenly">
+            <img class="w-lg-25 w-25 col-md-3" src="./asset/img/libro-de-hechizos.png" alt="Logo el rincon de la fantasia">
+
+            <section class="col-12 col-md-3 justify-content-center text-center">
                 <h3 class="fs-4">Nuestras redes</h3>
-                <div class="align-content-center">
+                <div class="align-content-center ">
                     <a href="https://www.instagram.com/"target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://web.whatsapp.com/"target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                     <a href="https://discord.com/"target="_blank"><i class="fa-brands fa-discord"></i></a>
                 </div>
                 
             </section>
+          </div>
+            
         </footer>
 
         <script src="./js/bootstrap.bundle.min.js.map"></script>

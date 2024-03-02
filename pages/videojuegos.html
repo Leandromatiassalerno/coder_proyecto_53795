@@ -12,7 +12,7 @@
     <body>
         <body>
             <header class="position-sticky top-0">
-                <nav class="navbar navbar-expand-lg header ">
+                <nav class="navbar navbar-expand-lg header navbar-dark">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="../index.html">
                         <img src="../asset/img/libro-de-hechizos.png" alt="Logo el rincon de la fantasia"></a>
@@ -22,7 +22,7 @@
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="./peliculas.html">Peliculas</a>
@@ -31,7 +31,7 @@
                             <a class="nav-link" href="./series.html">Series</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="./videojuegos.html">Videojuegos</a>
+                            <a class="nav-link active" href="./videojuegos.html">Videojuegos</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="./unete.html">Unete</a>
@@ -41,17 +41,14 @@
                   </nav>
             </header>
         <main class="container-fluid">
-            
-              <section class="text-bg-dark">
-                <img src="../asset/img/Videojuegos/videojuegos.jpeg" class="card-img" alt="...">
-                <div class="card-img-overlay d-flex text-center align-items-center">
-                  <h5 class="titulo card-title fs-1 ">Videojuegos</h5>
-                </div>
-              </section>  
+          <section class="imagenmainvideojuegos">
+                
+            <h1 class="titulo">videojuegos</h1>
+        </section>
               
                 <section class=" container d-flex flex-wrap justify-content-evenly">
                     <section class="targetas border border-secondary shadow p-3 mb-5 -tertiary rounded">
-                        <img class="w-100 border-1 border-secondary" src="../asset/img/Videojuegos/Elden Ring.png" alt="Elden Ring portada">
+                        <img class="w-100 border-1 border-secondary" src="../asset/img/Videojuegos/eldenring_2.jpg" alt="Elden Ring portada">
                         <h5 class="text-dark fs-3 text-center mt-3">Elden Ring</h5>
                     </section>
                     <section class="targetas border border-secondary shadow p-3 mb-5 -tertiary rounded">
@@ -59,11 +56,11 @@
                         <h5 class="text-dark fs-3 text-center mt-3">World of Warcraft</h5>
                     </section>
                     <section class="targetas border border-secondary shadow p-3 mb-5 -tertiary rounded">
-                        <img class="w-100 border-1 border-secondary" src="../asset/img/Videojuegos/Darkest_Dungeonpng.png" alt="Darkest Dungeon portada">
+                        <img class="w-100 border-1 border-secondary" src="../asset/img/Videojuegos/darkest dungeon_2.jpg" alt="Darkest Dungeon portada">
                         <h5 class="text-dark fs-3 text-center mt-3">Darkest Dungeon</h5>
                     </section>
                     <section class="targetas border border-secondary shadow p-3 mb-5 -tertiary rounded">
-                        <img class="w-100 border-1 border-secondary" src="../asset/img/Videojuegos/devil may cry5.jpeg" alt="Devil May Cry 5 portada">
+                        <img class="w-100 border-1 border-secondary" src="../asset/img/Videojuegos/Devil May Cry 5_2.jpg" alt="Devil May Cry 5 portada">
                         <h5 class="text-dark fs-3 text-center mt-3">Devil May Cry 5</h5>
                     </section>
                     <section class="targetas border border-secondary shadow p-3 mb-5 -tertiary rounded">
@@ -78,17 +75,21 @@
             
         
         </main>
-        <footer class="footer">
-            <img src="../asset/img/libro-de-hechizos.png" alt="Logo el rincon de la fantasia">
-            <section class="redes d-flex w-100 justify-content-center ">
+        <footer class="footer container-fluid">
+          <div class="row align-items-center justify-content-evenly">
+            <img class="w-lg-25 w-25 col-md-3" src="../asset/img/libro-de-hechizos.png" alt="Logo el rincon de la fantasia">
+
+            <section class="col-12 col-md-3 justify-content-center text-center">
                 <h3 class="fs-4">Nuestras redes</h3>
-                <div class="align-content-center">
+                <div class="align-content-center ">
                     <a href="https://www.instagram.com/"target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://web.whatsapp.com/"target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                     <a href="https://discord.com/"target="_blank"><i class="fa-brands fa-discord"></i></a>
                 </div>
                 
             </section>
+          </div>
+            
         </footer>
         <script src="../js/bootstrap.bundle.min.js.map"></script>
     </body>

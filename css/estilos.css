@@ -28,6 +28,26 @@ main{
     margin: 20px;
     background-color: rgb(151, 203, 248);
 } 
+.btn-primary {
+    color: #fff;
+    background-color: #00b11d;
+    border-color: #00ce2d;
+    border-radius: 5px;
+    &:hover{
+        background-color: #01971a;
+        border-color: #00b828;
+    }
+  }
+.btn-secondary {
+    color: #fff;
+    background-color: #af0600;
+    border-color: #ee0000;
+    border-radius: 5px;
+    &:hover{
+        background-color: #910500;
+        border-color: #c20000;  
+    }
+ }
 /* preguntar */
 .footer{
     background-color: rgb(9, 9, 61);
@@ -35,14 +55,16 @@ main{
 }
 
 .imagenmainvideojuegos{
-    background-image: url();
-    
+    background-image: url(../asset/img/Videojuegos/videojuegos.jpeg);
+    text-align: center;
     
     height: 60vh;
-
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .imagenmainseries{
     background-image: url(../asset/img/Series/Series.jpg);
@@ -84,16 +106,24 @@ main{
 .ubicacion{
 background-color: rgb(85, 101, 240);
 }
-.fa-whatsapp{
+.fa-whatsapp, .fa-instagram, .fa-discord{
     font-size: 5rem;
+}
+.fa-whatsapp{
     color: rgb(28, 247, 64);
 }
 .fa-instagram{
-    font-size: 5rem;
     color: rgb(240, 16, 202);
-
 }
 .fa-discord{
-    font-size: 5rem;
     color: rgb(137, 24, 243);
 }
+@media (max-width: 400px) {
+    .fa-whatsapp, .fa-instagram, .fa-discord{
+        font-size: 3rem;
+    }
+}
+.card-img-overlay {
+    background-size: contain;
+    background-position: center;
+  }
