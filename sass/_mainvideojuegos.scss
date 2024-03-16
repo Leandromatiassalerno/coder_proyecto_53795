@@ -1,0 +1,13 @@
+.imagenmainvideojuegos{
+    @extend .imagenmainpeliculas;
+    background-image: url(../asset/img/Videojuegos/videojuegos.jpeg);
+}
+.titulo{
+    color:$fuente-titulos;
+}
+
+.targetas{      
+    width: 400px;
+    margin: 20px;
+    background-color:map-get($fondos , targetas );
+} 

@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-alterado",
+  "version": "1.0.0",
+  "description": "proyecto de lean",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leandromatiassalerno/coder_proyecto_53795.git"
+  },
+  "author": "leandro matias pizzolitto salerno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leandromatiassalerno/coder_proyecto_53795/issues"
+  },
+  "homepage": "https://github.com/Leandromatiassalerno/coder_proyecto_53795#readme"
+}

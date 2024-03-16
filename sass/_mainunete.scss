@@ -1,0 +1,32 @@
+.btn-primary {
+    color:$blanco;
+    background-color: #00b11d;
+    border-color: #00ce2d;
+    border-radius: 5px;
+    &:hover{
+        background-color: #01971a;
+        border-color: #00b828;
+    }
+  }
+.btn-secondary {
+    color:$blanco;
+    background-color: #af0600;
+    border-color: #ee0000;
+    border-radius: 5px;
+    &:hover{
+        background-color: #910500;
+        border-color: #c20000;  
+    }
+ }
+
+
+
+
+.imgmainform{
+    @extend .imagenmainpeliculas;
+    background-image: url(../asset/img/Unete/bosque.jpg);
+}
+
+.ubicacion{
+background-color:map-get($fondos , ubicacion );
+}
