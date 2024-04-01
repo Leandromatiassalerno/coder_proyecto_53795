@@ -1,7 +1,6 @@
 .imagenmainpeliculas{
-    background-image: url(../asset/img/pelis/peliculas\ varias.jpg);
+    background-image: url(../asset/img/pelis/peliculas-de-fantasia.webp);
     text-align: center;
-    
     height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,13 +8,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    @media (max-width: 650px ){
+        background-image: url(../asset/img/pelis/peli\ .webp);
+    }
 }
+
 .titulo{
     color:$fuente-titulos;
 }
 
-.targetas{      
-    width: 400px;
-    margin: 20px;
-    background-color:map-get($fondos , targetas );
-} 

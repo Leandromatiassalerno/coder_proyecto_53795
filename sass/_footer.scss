@@ -1,27 +1,33 @@
 .footer{
     background-color:map-get($fondos , footer );
     color:$fuente-footer;
+
     .fa-whatsapp, .fa-instagram, .fa-discord{
         font-size: 5rem;   
+        margin-left: 20px;
     }
+
     .fa-whatsapp{
         color:$icono-whatsapp;
         &:hover{
             color:$icono-whatsapp-hover;
         }
     }
+
     .fa-instagram{
         color:$icono-instagram;
         &:hover{
             color:$icono-instagram-hover;
         }
     }
+
     .fa-discord{
         color:$icono-discord;
         &:hover{
             color:$icono-discord-hover;
         }
     }
+    
     @media (max-width: 400px) {
         .fa-whatsapp, .fa-instagram, .fa-discord{
             font-size: 3rem;

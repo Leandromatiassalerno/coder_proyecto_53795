@@ -6,11 +6,15 @@
 a {
     text-decoration: none;
 }
+
 body{
     font-family:$font-family;
 }
 
 main{
-    background-color:map-get($fondos , main );
+    background-image: linear-gradient(to right top, #4851ff, #4046f8, #393af1, #302ee9, #281fe2, #133eee, #0055f7, #0069ff, #0095ff, #0086bb, #0099b1, #009288);
 }
-   
+
+p{
+    color: $fuente-parrafos;
+}

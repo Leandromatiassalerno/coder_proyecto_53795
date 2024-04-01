@@ -1,126 +1,161 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,100, 200,300,400;1,900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,100, 200,300,400;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
-}
-body{
-    font-family: 'Playfair Display', serif;
+  text-decoration: none;
 }
 
-main{
-    background-color: rgb(58, 58, 139);
-}
-    
-.header{  
-    background-color: rgb(9, 9, 61);
+body {
+  font-family: "Playfair Display", serif;
 }
 
-.titulo{
-    color:rgb(245, 236, 189);
+main {
+  background-image: linear-gradient(to right top, #4851ff, #4046f8, #393af1, #302ee9, #281fe2, #133eee, #0055f7, #0069ff, #0095ff, #0086bb, #0099b1, #009288);
 }
 
-.targetas{      
-    width: 400px;
-    margin: 20px;
-    background-color: rgb(151, 203, 248);
-} 
-.btn-primary {
-    color: #fff;
-    background-color: #00b11d;
-    border-color: #00ce2d;
-    border-radius: 5px;
-    &:hover{
-        background-color: #01971a;
-        border-color: #00b828;
-    }
-  }
-.btn-secondary {
-    color: #fff;
-    background-color: #af0600;
-    border-color: #ee0000;
-    border-radius: 5px;
-    &:hover{
-        background-color: #910500;
-        border-color: #c20000;  
-    }
- }
-/* preguntar */
-.footer{
-    background-color: rgb(9, 9, 61);
-    color:#e4e3df;
+p {
+  color: #dfdfdf;
 }
 
-.imagenmainvideojuegos{
-    background-image: url(../asset/img/Videojuegos/videojuegos.jpeg);
-    text-align: center;
-    
-    height: 60vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.imagenmainseries{
-    background-image: url(../asset/img/Series/Series.jpg);
-    text-align: center;
-    
-    height: 60vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.imagenmainpeliculas{
-    background-image: url(../asset/img/pelis/peliculas\ varias.jpg);
-    text-align: center;
-    
-    height: 60vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.imgmainform{
-    background-image: url(../asset/img/Unete/bosque.jpg);
-    text-align: center;
-    
-    height: 60vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.header {
+  background-color: rgb(41, 41, 248);
+  font-size: large;
 }
 
-.ubicacion{
-background-color: rgb(85, 101, 240);
+.footer {
+  background-color: rgb(35, 35, 247);
+  color: #e4e3df;
 }
-.fa-whatsapp, .fa-instagram, .fa-discord{
-    font-size: 5rem;
-   
+.footer .fa-whatsapp, .footer .fa-instagram, .footer .fa-discord {
+  font-size: 5rem;
+  margin-left: 20px;
 }
-.fa-whatsapp{
-    color: rgb(28, 247, 64);
+.footer .fa-whatsapp {
+  color: rgb(28, 247, 64);
 }
-.fa-instagram{
-    color: rgb(240, 16, 202);
+.footer .fa-whatsapp:hover {
+  color: rgb(19, 199, 49);
 }
-.fa-discord{
-    color: rgb(137, 24, 243);
+.footer .fa-instagram {
+  color: rgb(240, 16, 202);
+}
+.footer .fa-instagram:hover {
+  color: rgb(184, 12, 155);
+}
+.footer .fa-discord {
+  color: rgb(137, 24, 243);
+}
+.footer .fa-discord:hover {
+  color: rgb(103, 19, 182);
 }
 @media (max-width: 400px) {
-    .fa-whatsapp, .fa-instagram, .fa-discord{
-        font-size: 3rem;
-    }
+  .footer .fa-whatsapp, .footer .fa-instagram, .footer .fa-discord {
+    font-size: 3rem;
+  }
 }
+
+.titulo {
+  color: rgb(255, 229, 101);
+}
+
+.textoindex {
+  color: #b8b8b8;
+}
+
+.targetas {
+  width: 400px;
+  margin: 20px;
+  background-color: rgb(151, 203, 248);
+}
+.targetas:hover {
+  background-color: rgb(50, 139, 218);
+  box-shadow: -2px 4px 106px 7px rgba(0, 0, 0, 0.91);
+  -webkit-box-shadow: -2px 4px 106px 7px rgba(0, 0, 0, 0.91);
+  -moz-box-shadow: -2px 4px 106px 7px rgba(0, 0, 0, 0.91);
+  transition: 2s;
+}
+.targetas:hover .textotargetas {
+  color: #ebff34;
+  transition: 2s;
+}
+.targetas .textotargetas {
+  color: #2f3030;
+}
+
+.imagenmainpeliculas, .imgmainform, .imagenmainvideojuegos, .imagenmainseries {
+  background-image: url(../asset/img/pelis/peliculas-de-fantasia.webp);
+  text-align: center;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 650px) {
+  .imagenmainpeliculas, .imgmainform, .imagenmainvideojuegos, .imagenmainseries {
+    background-image: url(../asset/img/pelis/peli\ .webp);
+  }
+}
+
+.titulo {
+  color: rgb(255, 229, 101);
+}
+
+.imagenmainseries {
+  background-image: url(../asset/img/Series/series\ varias.webp);
+}
+@media (max-width: 650px) {
+  .imagenmainseries {
+    background-image: url(../asset/img/Series/serie.webp);
+  }
+}
+
+.titulo {
+  color: rgb(255, 229, 101);
+}
+
+.imagenmainvideojuegos {
+  background-image: url(../asset/img/Videojuegos/videojuegos.webp);
+}
+
+.titulo {
+  color: rgb(255, 229, 101);
+}
+
+.imgmainform {
+  background-image: url(../asset/img/Unete/bosque.webp);
+}
+.imgmainform .btn-primary {
+  color: #fff;
+  background-color: #00b11d;
+  border-color: #00ce2d;
+  border-radius: 5px;
+}
+.imgmainform .btn-primary:hover {
+  background-color: #01971a;
+  border-color: #00b828;
+}
+.imgmainform .btn-secondary {
+  color: #fff;
+  background-color: #af0600;
+  border-color: #ee0000;
+  border-radius: 5px;
+}
+.imgmainform .btn-secondary:hover {
+  background-color: #910500;
+  border-color: #c20000;
+}
+
+.ubicacion {
+  background-color: rgb(85, 101, 240);
+}
+.ubicacion .textoubicacion {
+  color: #e4e3df;
+}
+
+/*# sourceMappingURL=estilos.css.map */

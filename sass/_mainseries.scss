@@ -1,13 +1,12 @@
 .imagenmainseries{
     @extend .imagenmainpeliculas;
-    background-image: url(../asset/img/Series/Series.jpg);
+    background-image: url(../asset/img/Series/series\ varias.webp);
+
+    @media (max-width: 650px ){
+        background-image: url(../asset/img/Series/serie.webp);
+    }
 }
+
 .titulo{
     color:$fuente-titulos;
 }
-
-.targetas{      
-    width: 400px;
-    margin: 20px;
-    background-color:map-get($fondos , targetas );
-} 

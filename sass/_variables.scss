@@ -1,14 +1,10 @@
 $fondos : (
-
-    main : rgb(58, 58, 139),
-    head : rgb(9, 9, 61),
+    head : rgb(41, 41, 248),
     targetas : rgb(151, 203, 248),
-    footer : rgb(9, 9, 61),
+    targetashover : rgb(50, 139, 218),
+    footer : rgb(35, 35, 247),
     ubicacion : rgb(85, 101, 240),
-
 );
-
-
 
 // iconos
 $icono-whatsapp: rgb(28, 247, 64);
@@ -20,6 +16,10 @@ $icono-discord-hover: rgb(103, 19, 182);
 
 // fuentes
 $font-family: 'Playfair Display', serif;
-$fuente-titulos:rgb(245, 236, 189);
+$fuente-titulos:rgb(255, 229, 101);
 $fuente-footer:#e4e3df;
+$amarillo: #ebff34;
 $blanco: #fff;
+$blanco-alternativo: #b8b8b8;
+$fuente-parrafos:  #dfdfdf;
+$negro: #2f3030;

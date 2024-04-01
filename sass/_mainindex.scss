@@ -2,8 +2,29 @@
     color:$fuente-titulos;
 }
 
+.textoindex{
+    color:  $blanco-alternativo;
+}
+
 .targetas{      
     width: 400px;
     margin: 20px;
     background-color:map-get($fondos , targetas );
+
+    &:hover{
+        background-color:map-get($fondos , targetashover );     
+        box-shadow: -2px 4px 106px 7px rgba(0,0,0,0.91);
+        -webkit-box-shadow: -2px 4px 106px 7px rgba(0,0,0,0.91);
+        -moz-box-shadow: -2px 4px 106px 7px rgba(0,0,0,0.91);
+        transition: 2s;
+        
+        .textotargetas{
+            color: $amarillo;
+            transition: 2s;
+        }
+    }
+
+    .textotargetas{
+        color: $negro;
+    }
 } 
